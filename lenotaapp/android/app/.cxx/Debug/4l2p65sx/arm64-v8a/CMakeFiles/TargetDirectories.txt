@@ -1,0 +1,2 @@
+C:/Users/IGOR-NOT/Desktop/Codigos/CodigosSSD/lenota/lenotaapp/android/app/.cxx/Debug/4l2p65sx/arm64-v8a/CMakeFiles/edit_cache.dir
+C:/Users/IGOR-NOT/Desktop/Codigos/CodigosSSD/lenota/lenotaapp/android/app/.cxx/Debug/4l2p65sx/arm64-v8a/CMakeFiles/rebuild_cache.dir
