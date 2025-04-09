@@ -78,7 +78,7 @@ class ScanWindowOverlay extends StatelessWidget {
 
         return CustomPaint(
           size: value.size,
-          painter: ScanWindowPainter(
+          painter: ScanPainter(
             borderColor: borderColor,
             borderRadius: borderRadius,
             borderStrokeCap: borderStrokeCap,

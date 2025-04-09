@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 
 /// This class represents a [CustomPainter] that draws a [scanWindow] rectangle.
-class ScanWindowPainter extends CustomPainter {
-  /// Construct a new [ScanWindowPainter] instance.
-  const ScanWindowPainter({
+class ScanPainter extends CustomPainter {
+  /// Construct a new [ScanPainter] instance.
+  const ScanPainter({
     required this.borderColor,
     required this.borderRadius,
     required this.borderStrokeCap,
@@ -88,7 +88,7 @@ class ScanWindowPainter extends CustomPainter {
   }
 
   @override
-  bool shouldRepaint(ScanWindowPainter oldDelegate) {
+  bool shouldRepaint(ScanPainter oldDelegate) {
     return oldDelegate.scanWindow != scanWindow ||
         oldDelegate.color != color ||
         oldDelegate.borderRadius != borderRadius;
